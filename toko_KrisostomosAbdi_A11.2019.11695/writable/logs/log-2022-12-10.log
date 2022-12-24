@@ -1,0 +1,98 @@
+CRITICAL - 2022-12-10 00:33:12 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 60.
+ 1 APPPATH\Controllers\Shop.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:58:35 --> Undefined variable $kategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:59:07 --> Undefined variable $kategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:59:08 --> Undefined variable $kategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:59:27 --> Undefined variable $kategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:59:28 --> Undefined variable $kategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:00:05 --> Undefined variable $KategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $KategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:00:39 --> Undefined variable $kategori
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:01:35 --> Undefined variable $KategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $KategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:01:37 --> Undefined variable $KategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $KategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:01:37 --> Undefined variable $KategoriModel
+in APPPATH\Controllers\Shop.php on line 39.
+ 1 APPPATH\Controllers\Shop.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $KategoriModel', 'APPPATH\\Controllers\\Shop.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->category('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:13:02 --> Invalid file: contact.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('contact')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

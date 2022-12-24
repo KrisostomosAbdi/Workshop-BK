@@ -1,0 +1,379 @@
+CRITICAL - 2022-12-17 00:02:33 --> Undefined variable $submitdiskon
+in APPPATH\Views\Shop\product.php on line 302.
+ 1 APPPATH\Views\Shop\product.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submitdiskon', 'APPPATH\\Views\\Shop\\product.php', 302)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(62): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:06:13 --> Undefined variable $submitdiskon
+in APPPATH\Views\Shop\product.php on line 302.
+ 1 APPPATH\Views\Shop\product.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submitdiskon', 'APPPATH\\Views\\Shop\\product.php', 302)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(62): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:12:41 --> Undefined variable $id_diskon
+in APPPATH\Views\Shop\product.php on line 306.
+ 1 APPPATH\Views\Shop\product.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_diskon', 'APPPATH\\Views\\Shop\\product.php', 306)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(62): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:24:51 --> Access denied for user 'username'@'localhost' (using password: YES)
+in APPPATH\Views\Shop\product.php on line 297.
+ 1 APPPATH\Views\Shop\product.php(297): mysqli->__construct('localhost', 'username', 'password', 'database')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(62): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:32:34 --> Object of class App\Entities\Diskon could not be converted to string
+in SYSTEMPATH\Helpers\form_helper.php on line 714.
+ 1 SYSTEMPATH\Helpers\form_helper.php(151): parse_form_attributes([...], [...])
+ 2 APPPATH\Views\Shop\product.php(297): form_input([...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 6 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:37:41 --> Undefined variable $d
+in APPPATH\Views\Shop\product.php on line 298.
+ 1 APPPATH\Views\Shop\product.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\Shop\\product.php', 298)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:38:01 --> Undefined variable $d
+in APPPATH\Views\Shop\product.php on line 298.
+ 1 APPPATH\Views\Shop\product.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\Shop\\product.php', 298)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:38:49 --> Undefined variable $d
+in APPPATH\Views\Shop\product.php on line 298.
+ 1 APPPATH\Views\Shop\product.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\Shop\\product.php', 298)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:40:59 --> Call to a member function findAll() on array
+in APPPATH\Controllers\Shop.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:41:37 --> Undefined variable $d
+in APPPATH\Views\Shop\product.php on line 298.
+ 1 APPPATH\Views\Shop\product.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\Shop\\product.php', 298)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 00:42:47 --> Undefined variable $d
+in APPPATH\Views\Shop\product.php on line 298.
+ 1 APPPATH\Views\Shop\product.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\Shop\\product.php', 298)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(64): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:23:15 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 63.
+ 1 APPPATH\Controllers\Shop.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:23:29 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 63.
+ 1 APPPATH\Controllers\Shop.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:23:34 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 63.
+ 1 APPPATH\Controllers\Shop.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:23:35 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 63.
+ 1 APPPATH\Controllers\Shop.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:24:22 --> Undefined property: stdClass::$results
+in APPPATH\Controllers\Shop.php on line 62.
+ 1 APPPATH\Controllers\Shop.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$results', 'APPPATH\\Controllers\\Shop.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 01:36:05 --> Undefined variable $submit
+in APPPATH\Views\Shop\product.php on line 292.
+ 1 APPPATH\Views\Shop\product.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submit', 'APPPATH\\Views\\Shop\\product.php', 292)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\Shop.php(62): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 02:35:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'toko_online', 3306, '', 0)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#11 {main}
+CRITICAL - 2022-12-17 02:35:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `diskon`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 02:36:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'toko_online', 3306, '', 0)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#11 {main}
+CRITICAL - 2022-12-17 02:36:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `diskon`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 02:37:09 --> mysqli_sql_exception: Table 'toko_online.diskon' doesn't exist in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#12 {main}
+CRITICAL - 2022-12-17 02:37:09 --> Table 'toko_online.diskon' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `diskon`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `diskon`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `diskon`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `diskon`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 02:39:20 --> mysqli_sql_exception: Table 'toko_online.diskon' doesn't exist in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#12 {main}
+CRITICAL - 2022-12-17 02:39:20 --> Table 'toko_online.diskon' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `diskon`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `diskon`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `diskon`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `diskon`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 02:39:23 --> mysqli_sql_exception: Table 'toko_online.diskon' doesn't exist in E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\WORKSHOP\17DES\toko\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\WORKSHOP\17DES\toko\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\WORKSHOP\17DES\toko\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\WORKSHOP\\17D...')
+#12 {main}
+CRITICAL - 2022-12-17 02:39:23 --> Table 'toko_online.diskon' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `diskon`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `diskon`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `diskon`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `diskon`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-17 02:41:04 --> 6 : Could not resolve host: api.rajaongkir.com
+in SYSTEMPATH\HTTP\CURLRequest.php on line 655.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: api.rajaongkir.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.rajaongkir.com/starter/province')
+ 4 APPPATH\Libraries\Bantuan.php(13): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.rajaongkir.com/starter/province', [...])
+ 5 APPPATH\Controllers\Shop.php(56): App\Libraries\Bantuan->rajaongkir('https://api.rajaongkir.com/starter/province', 'ba7e6a2b2c98d3b4adbef90958fa16a8', null, 'GET')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
